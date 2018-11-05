@@ -29,7 +29,7 @@ for p, pos in enumerate(particlesPos):
     x = math.cos(rotD)
     one = (x, 0.0, z)  
     vectorF.append(one)
-print 'vectorF =', vectorF    
+//print 'vectorF =', vectorF    
 for i in range(popCount):
     cmds.select('particleShape1.pt[{num}]'.format(num=i))
     cmds.setParticleAttr(vectorValue=vectorF[i], attribute='MyVectorForce')
