@@ -1,4 +1,9 @@
 
+#  File name: Roman Numerals Decoder.py
+#  Developed by Yuriy Kondrashov on 2/2/20 7:46 PM
+#  Date last modified: 1/22/20 11:51 PM
+#  Copyright (c) 2020. All rights reserved.
+
 # from functools import reduce
 # from itertools import zip_longest
 # def roman_to_int(n):
