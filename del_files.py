@@ -20,8 +20,7 @@ def del_files(path, file):
                     os.remove(path_to_file)
     
     except IndexError:
-        print("Please, please provide two arguments")
-        print("command line: python del_files.py arg1 arg2")
+        print("Please, please provide two arguments:")
         print("arg1 = folder path")
         print("arg2 = file extention")
         print("Example: python del_files.py C:/Desktop/folder_name .exr")
